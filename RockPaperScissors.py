@@ -32,6 +32,6 @@ while True:
             player_score+=1
     elif player=='End':
         print("Final Scores:")
-        print(f"CPU:{cpu_score}")
-        print(f"Plaer:{player_score}")
+        print("CPU:",cpu_score)
+        print("Player:",player_score)
         break
